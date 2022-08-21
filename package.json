@@ -1,0 +1,19 @@
+{
+  "name": "toolkit",
+  "version": "1.0.0",
+  "description": "The toolset for efficient front-end development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacky-Summer/toolkit.git"
+  },
+  "author": "JackySummer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacky-Summer/toolkit/issues"
+  },
+  "homepage": "https://github.com/Jacky-Summer/toolkit#readme"
+}
