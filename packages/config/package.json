@@ -1,0 +1,14 @@
+{
+  "name": "@summer/config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 0",
+    "dev": "echo 0",
+    "build": "echo 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
