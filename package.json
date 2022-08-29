@@ -1,7 +1,6 @@
 {
-  "name": "toolkit",
+  "name": "toolkit-monorepo",
   "private": true,
-  "version": "1.0.0",
   "description": "The toolset for efficient front-end development",
   "main": "index.js",
   "scripts": {
@@ -15,7 +14,7 @@
     "url": "git+https://github.com/Jacky-Summer/toolkit.git"
   },
   "author": "JackySummer",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jacky-Summer/toolkit/issues"
   },
