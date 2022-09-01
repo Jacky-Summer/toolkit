@@ -1,5 +1,5 @@
 {
-  "name": "toolkit-monorepo",
+  "name": "summer-toolkit-monorepo",
   "private": true,
   "description": "The toolset for efficient front-end development",
   "main": "index.js",
