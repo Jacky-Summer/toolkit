@@ -6,9 +6,12 @@
   "scripts": {
     "test": "echo 0",
     "dev": "echo 0",
-    "build": "echo 0"
+    "build": "node ./esbuild.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.15.6"
+  }
 }
