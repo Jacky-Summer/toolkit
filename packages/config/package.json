@@ -1,16 +1,23 @@
 {
   "name": "@summer/config",
+  "private": false,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "frontend project basic config list",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo 0",
     "dev": "echo 0",
     "build": "node ./esbuild.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacky-Summer/toolkit.git"
+  },
+  "author": "JackySummer",
+  "license": "MIT",
   "devDependencies": {
     "esbuild": "0.15.6"
   }
