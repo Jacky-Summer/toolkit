@@ -4,7 +4,7 @@
  */
 
 export const prettierConfig = (extendConfig?: {
-  [option in string]: unknown;
+  [option in string]: unknown
 }) => {
   return {
     /** 单行最大字符数 */
@@ -18,11 +18,11 @@ export const prettierConfig = (extendConfig?: {
     /** jsx标签多行属性写法时，反尖括号换行放置 */
     jsxBracketSameLine: false,
     /** 箭头函数单个参数的情况是否省略括号 */
-    arrowParens: "always",
+    arrowParens: 'always',
     /** 行尾换行符 <lf|crlf|cr|auto> */
-    endOfLine: "lf",
+    endOfLine: 'lf',
     /** 行末尾逗号 <es5|none|all> */
-    trailingComma: "es5",
+    trailingComma: 'es5',
     /** 每行末尾自动添加分号 */
     semi: false,
     /** 在对象前后添加空格 */
@@ -31,5 +31,5 @@ export const prettierConfig = (extendConfig?: {
     commentFormat: true,
     /** 自定义配置 */
     ...extendConfig,
-  };
-};
+  }
+}

@@ -1,1 +1,1 @@
-export { prettierConfig } from "./prettier";
+export { prettierConfig } from './prettier'
