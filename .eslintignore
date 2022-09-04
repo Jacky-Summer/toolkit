@@ -1,0 +1,27 @@
+# 忽略项目目录/文件
+node_modules/
+dist/
+build/
+test/
+tests/
+node_modules/
+public/
+*.svg
+*.ico
+*.json
+.gitignore
+*.md
+*.log
+*.lock
+*.yaml
+.vsocde
+.idea
+
+# 忽略测试文件
+/packages/*/__tests__
+/packages/*/lib/
+
+
+# 覆盖率文件
+coverage/
+
