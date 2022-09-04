@@ -11,16 +11,16 @@
 
 interface IESLintConfig {
   /** __dirname */
-  tsconfigRootDir?: string
+  tsconfigRootDir: string
   /** 项目 tsconfig.json 的路径 */
-  project?: string
+  project: string
   /** 是否使用 React */
   useReact?: boolean
   globals?: { [key in string]: unknown }
   rules?: { [option in string]: 'off' | 'warn' | 'error' | 0 | 1 | 2 | unknown[] }
 }
 
-export const eslintConfig = (extendConfig: IESLintConfig = {}) => {
+export const eslintConfig = (extendConfig: IESLintConfig) => {
   const { useReact = false, tsconfigRootDir, project, globals, rules } = extendConfig
 
   return {
@@ -41,8 +41,8 @@ export const eslintConfig = (extendConfig: IESLintConfig = {}) => {
         /** 启用 JSX */
         jsx: true,
       },
-      project: project || './tsconfig.json',
-      tsconfigRootDir: tsconfigRootDir || __dirname,
+      project: project,
+      tsconfigRootDir: tsconfigRootDir,
     },
     extends: [
       /** eslint recommend rules */
