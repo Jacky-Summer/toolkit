@@ -21,6 +21,8 @@ importers:
 
   packages/config:
     specifiers:
+      '@commitlint/cli': 17.1.2
+      '@commitlint/config-conventional': 17.1.0
       '@typescript-eslint/eslint-plugin': 5.36.1
       '@typescript-eslint/parser': 5.36.1
       esbuild: 0.15.6
@@ -32,8 +34,12 @@ importers:
       eslint-plugin-react: 7.31.4
       eslint-plugin-react-hooks: 4.6.0
       glob: 8.0.3
+      husky: 8.0.1
+      lint-staged: 13.0.3
       prettier: 2.7.1
     dependencies:
+      '@commitlint/cli': 17.1.2
+      '@commitlint/config-conventional': 17.1.0
       '@typescript-eslint/eslint-plugin': 5.36.1_586c56b3bc76dec8ef0f241fb0cda488
       '@typescript-eslint/parser': 5.36.1_eslint@8.23.0+typescript@4.8.2
       eslint: 8.23.0
@@ -43,6 +49,8 @@ importers:
       eslint-plugin-prettier: 4.2.1_99a8c9fa965e983db7d4834c61fad511
       eslint-plugin-react: 7.31.4_eslint@8.23.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
+      husky: 8.0.1
+      lint-staged: 13.0.3
       prettier: 2.7.1
     devDependencies:
       esbuild: 0.15.6
