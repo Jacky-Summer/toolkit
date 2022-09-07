@@ -7,6 +7,8 @@
     "dev": "pnpm dev -r",
     "build": "pnpm build -r",
     "test": "pnpm test -r",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "pnpm build --parallel --filter @summer-toolkit/config",
     "prepare": "husky install",
     "eslint": "eslint --color --fix --ext .ts,.tsx ."
   },
