@@ -4,9 +4,9 @@
   "description": "The toolset for efficient front-end development",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm dev -r",
-    "build": "pnpm build -r",
-    "test": "pnpm test -r",
+    "dev": "pnpm dev -r --parallel",
+    "build": "pnpm build -r --parallel",
+    "test": "pnpm test -r --parallel",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "pnpm build --parallel --filter @summer-toolkit/config",
     "prepare": "husky install",
