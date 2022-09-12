@@ -44,6 +44,7 @@ export const eslintConfig = (extendConfig: IESLintConfig) => {
       project: project,
       tsconfigRootDir: tsconfigRootDir,
     },
+    ignorePatterns: ['.eslintrc.js'],
     extends: [
       /** eslint recommend rules */
       'eslint:recommended',
