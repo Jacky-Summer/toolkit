@@ -1,7 +1,7 @@
 {
   "name": "@summer-toolkit/config",
   "private": false,
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "frontend project basic config list",
   "main": "dist/index.js",
   "files": [
